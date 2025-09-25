@@ -1,0 +1,9 @@
+build/
+*.exe
+x64/
+ThreadsPool
+.vs/
+*.vcxproj
+*.filters
+*.user
+*.sln
