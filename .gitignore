@@ -1,4 +1,6 @@
 .vs/
+ThreadPool/
+x64/
 *.sln
 *.filters
 *.user
