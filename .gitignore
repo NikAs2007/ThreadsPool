@@ -1,9 +1,5 @@
-build/
-*.exe
-x64/
-ThreadsPool
 .vs/
-*.vcxproj
+*.sln
 *.filters
 *.user
-*.sln
+*.vcxproj
