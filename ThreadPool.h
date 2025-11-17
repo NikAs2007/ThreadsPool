@@ -16,7 +16,7 @@ class ThreadPool {
 	queue<function<void()>> tasks;
 	condition_variable cv;
 	mutex mtx;
-	bool stop;
+	bool stop = false;
 
 public:
 	ThreadPool(int n = thread::hardware_concurrency());
